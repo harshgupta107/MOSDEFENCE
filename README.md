@@ -18,7 +18,6 @@
 |-------|---------|
 | **Name** | Harsh Gupta |
 | **Roll No** | M25EC002 |
-| **Department** | Electronics & Communication Engineering |
 | **GitHub** | [@harshgupta107](https://github.com/harshgupta107) |
 
 ---
