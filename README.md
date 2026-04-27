@@ -17,7 +17,6 @@
 | Field | Details |
 |-------|---------|
 | **Name** | Harsh Gupta |
-| **Roll No** | M25EC002 |
 | **GitHub** | [@harshgupta107](https://github.com/harshgupta107) |
 
 ---
@@ -27,7 +26,7 @@
 This repository implements:
 
 1. **MOS-Attack** — A scalable multi-objective adversarial attack using 8 surrogate loss functions optimized jointly via smooth set-based optimization (APGD).
-2. **MOS-Defense** *(Novel Contribution)* — A multi-objective adversarial training method that trains models against a **set** of K adversarial examples per input, each targeting a different loss function, with a synergy regularizer.
+2. **MOS-Defense** *(Contribution)* — A multi-objective adversarial training method that trains models against a **set** of K adversarial examples per input, each targeting a different loss function, with a synergy regularizer.
 
 ---
 
@@ -199,9 +198,9 @@ loss, clean_loss, adv_loss = defender.mos_defense_loss(x_batch, y_batch)
 
 ---
 
-## 🆕 MOS-Defense: Our Novel Contribution
+## 🆕 MOS-Defense
 
-| Property | PGD-AT | MOS-Defense (Ours) |
+| Property | PGD-AT | MOS-Defense |
 |----------|--------|-------------------|
 | Inner maximization | Single CE loss | K diverse losses |
 | Adversarial examples/batch | 1 | K |
@@ -241,13 +240,6 @@ The full project report is available at:
 4. Croce & Hein. *Reliable Evaluation of Adversarial Robustness (AutoAttack).* ICML 2020.
 5. Goodfellow et al. *Explaining and Harnessing Adversarial Examples (FGSM).* ICLR 2015.
 
----
-
-## 📝 License
-
-This project is for academic purposes. See [LICENSE](LICENSE) for details.
-
----
 
 <div align="center">
 <b>Harsh Gupta | M25EC002 | ECE Department</b><br>
