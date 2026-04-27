@@ -37,7 +37,7 @@ Instead of using a single surrogate loss, MOS-Attack maximizes **all 8 loss func
 
 $$\max_{\Delta} g(\Delta) = -\mu \log \left( \sum_{i=1}^{m} \left( \sum_{k=1}^{K} e^{f_i(\delta_k)/\mu} \right)^{-1} \right)$$
 
-### MOS-Defense (Our Contribution)
+### MOS-Defense (Contribution)
 $$\mathcal{L}_{\text{MOS-Def}} = \lambda_c \cdot \text{CE}(f(x), y) + (1-\lambda_c) \cdot \frac{1}{K}\sum_{k=1}^{K} \text{CE}(f(x+\delta_k), y) + \lambda_s \cdot \mathcal{L}_{\text{syn}}$$
 
 ---
