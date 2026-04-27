@@ -241,6 +241,6 @@ The full project report is available at:
 
 
 <div align="center">
-<b>Harsh Gupta | M25EC002 | ECE Department</b><br>
+<b>Harsh Gupta</b><br>
 <a href="https://github.com/harshgupta107/MOSDEFENCE">github.com/harshgupta107/MOSDEFENCE</a>
 </div>
