@@ -7,7 +7,6 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![CUDA](https://img.shields.io/badge/CUDA-11.8-76b900.svg)](https://developer.nvidia.com/cuda-toolkit)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![CVPR](https://img.shields.io/badge/Paper-CVPR%202025-blueviolet.svg)](https://openaccess.thecvf.com/)
 
 ---
