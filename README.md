@@ -174,13 +174,6 @@ loss, clean_loss, adv_loss = defender.mos_defense_loss(x_batch, y_batch)
 | 3 | 10.6 | 10.6 | 10.6 | 10.6 |
 | 5 | 10.2 | 10.2 | 10.2 | 10.2 |
 
-### Plots
-
-| Comparison Plot | Ablation Plot |
-|---|---|
-| ![Comparison](results/fig1_comparison.png) | ![Ablation](results/fig2_ablation.png) |
-
----
 
 ## 🔬 8 Loss Functions
 
